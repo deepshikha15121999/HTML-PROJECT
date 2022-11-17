@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        width: 1000px;
+        height: 500px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        
+    }
+    #france1{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #france1_1{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: blue;
+    }
+    #france1_2{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+    }
+    #france1_3{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: orange;
+    }
+    
+    #germany2{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows:auto auto auto ;
+    }
+    #germany2_1{
+        width: 180px;
+        height: 57px;
+        /* border: 1px solid black; */
+        background-color: black;
+    }
+    #germany2_2{
+        width: 180px;
+        height: 57px;
+        /* border: 1px solid black; */
+        background-color: red;
+    }
+    #germany2_3{
+        width: 180px;
+        height: 57px;
+        border: 1px solid black;
+        background-color: yellow;
+    }
+    #romaniya3{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #romaniya3_1{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: blue;
+    }
+    #romaniya3_2{
+        width: 60px;
+        height: 180px;
+        border: 1px solid yellow;
+    }
+    #romaniya3_3{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: red;
+    }
+    
+    #india4{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    #india4_1{
+        width: 180px;
+        height: 60px;
+        border: 1px solid black;
+        background-color: orange;
+    }
+    #india4_2{
+        width: 180px;
+        height: 60px;
+    }
+    #india4_3{
+        width: 180px;
+        height: 60px;
+        border: 1px solid black;
+        background-color: green;
+    }
+    #monaco5{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    #monaco5_1{
+        width: 180px;
+        height: 90px;
+        background-color: red;
+    }
+    #monaco5_2{
+        width: 180px;
+        height: 90px;
+    }
+    #ukraine6{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #ukraine6_1{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: green;
+    }
+    #ukraine6_2{
+        width: 60px;
+        height: 180px;
+        border: 1px solid yellow;
+    }
+    #ukraine6_3{
+        width: 60px;
+        height: 180px;
+        border: 1px solid black;
+        background-color: rgb(105, 42, 42);
+    }
+    #austria7{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    #austria7_1{
+        width: 180px;
+        height: 60px;
+        border: 1px solid black;
+        background-color: rgb(83, 33, 33);
+    }
+    #austria7_2{
+        width: 180px;
+        height: 60px;
+    }
+    #austria7_3{
+        width: 180px;
+        height: 60px;
+        border: 1px solid black;
+        background-color: rgb(108, 38, 38);
+    }
+    #hungry8{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    #hungry8_1{
+        width: 180px;
+        height: 60px;
+        /* border: 1px solid black; */
+        background-color: rgb(91, 40, 40);
+    }
+    #hungry8_2{
+        width: 180px;
+        height: 60px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    #hungry8_3{
+        width: 180px;
+        height: 60px;
+        background-color: rgb(19, 57, 19);
+    }
+
+    #rusia9{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    #rusia9_1{
+        width: 180px;
+        height: 60px;
+        /* border: 1px solid black; */
+        background-color:white;
+    }
+    #rusia9_2{
+        width: 180px;
+        height: 60px;
+        /* border: 1px solid black; */
+        background-color: blue;
+    }
+    #rusia9_3{
+        width: 180px;
+        height: 60px;
+        background-color: red;
+    }
+    #poland10{
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-rows:auto auto;
+    }
+    #poland10_1{
+        width: 180px;
+        height: 90px;
+        /* border: 1px solid black; */
+        background-color:white;
+    }
+    #poland10_2{
+        width: 180px;
+        height: 90px;
+        /* border: 1px solid black; */
+        background-color: rgb(58, 19, 19);
+    }
+
+</style>
+<body>
+    <div id="box">
+        <div id="france1">
+            <div id="france1_1"></div>
+            <div id="france1_2"></div>
+            <div id="france1_3"></div>
+        </div>
+        <div id="germany2">
+            <div id="germany2_1"></div>
+            <div id="germany2_2"></div>
+            <div id="germany2_3"></div>
+        </div>
+        <div id="romaniya3">
+            <div id="romaniya3_1"></div>
+            <div id="romaniya3_2"></div>
+            <div id="romaniya3_3"></div>
+        </div>
+        <div id="india4">
+            <div id="india4_1"></div>
+            <div id="india4_2"></div>
+            <div id="india4_3"></div>
+        </div>
+        <div id="monaco5">
+            <div id="monaco5_1"></div>
+            <div id="monaco5_2"></div>
+        </div>
+        <div id="ukraine6">
+            <div id="ukraine6_1"></div>
+            <div id="ukraine6_2"></div>
+            <div id="ukraine6_3"></div>
+        </div>
+        <div id="austria7">
+            <div id="austria7_1"></div>
+            <div id="austria7_2"></div>
+            <div id="austria7_3"></div>
+        </div>
+        <div id="hungry8">
+            <div id="hungry8_1"></div>
+            <div id="hungry8_2"></div>
+            <div id="hungry8_3"></div>
+        </div>
+        <div id="rusia9">
+            <div id="rusia9_1"></div>
+            <div id="rusia9_2"></div>
+            <div id="rusia9_3"></div>
+        </div>
+        <div id="poland10">
+            <div id="poland10_1"></div>
+            <div id="poland10_2"></div>
+            <div id="poland10_3"></div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
