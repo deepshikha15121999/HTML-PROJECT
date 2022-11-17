@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        width:1000px;
+        height: 610px;
+        border: 1px solid black;
+        background-color: rgb(23, 20, 20);
+        background-image: linear-gradient(black,grey);
+    }
+    #box1{
+        width:300px;
+        height: 555px;
+        border: 1px solid black;
+        margin-top: -580px;
+        margin-left: 40px;
+        border-radius: 20px;
+        text-align: end;
+        color: white;
+        background-color: black;
+        box-shadow: 0px 0px 5px 5px white;
+    }
+    #box3{
+        width: 500px;
+        height:550px ;
+        /* border: 1px solid black; */
+        margin-left: 500px;
+
+    }
+    #box1_1{
+        width:290px;
+        height: 250px;
+        /* border: 1px solid red; */
+        color: white;
+        font-size: 40px;
+    }
+    #time{
+        width: 70px;
+        height: 30px;
+        /* border: 1px solid green ; */
+        color:white;
+        margin-top:-195px ;
+        font-size: 17px;
+    }
+    #battery{
+        width: 90px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: -35px;
+        margin-left: 210px;
+
+    }
+    #signal{
+        width:20px;
+        height:20px;
+        margin-right: 100px;
+        /* margin-top:-100px; */
+        margin-top:-100px;
+    }
+    #wifi{
+        width:20px;
+        height:20px;
+        margin-left:-60px;
+        margin-top:-90px;
+    }
+    #bat{
+        width: 30px;
+        height: 10px;
+        /* border: 1px solid red; */
+        background-color: white;
+        margin-left: 245px;
+        margin-top: -13px;
+    }
+    #box2_2{
+        width:290px;
+        height: 300px;
+        border: 1px solid black;
+        margin-left: 45px;
+        margin-top: -300px;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    #box2_2_1{
+        width: 290px;
+        height: 58px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    #box2_2_1_1,#box2_2_1_2, #box2_2_1_3{
+        width: 50px;
+        height: 53px;
+        border: 1px solid black;
+        display: grid;
+        border-radius: 100px;
+        background-color: gray;
+        grid-template-columns: auto auto auto auto;
+        text-align:center ;
+    }
+    #box2_2_1_4{
+        width: 50px;
+        height: 53px;
+        border: 1px solid black;
+        display: grid;
+        border-radius: 100px;
+        background-color: yellow;
+        grid-template-columns: auto auto auto auto;
+        text-align:center ;
+    }
+    #box2_2_2{
+        width: 290px;
+        height: 58px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+   #box2_2_3{
+        width: 290px;
+        height: 58px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    #box2_2_4{
+        width: 290px;
+        height: 58px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    #box2_2_5{
+        width: 290px;
+        height: 58px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    #box2_2_5_1{
+        width: 150px;
+        height: 53px;
+        border: 1px solid black;
+        display: grid;
+        border-radius: 100px;
+        background-color: grey;
+        grid-template-columns: auto auto auto auto;
+        text-align:center;
+    }
+    #fi{
+        font-size: 70px;
+        color: white;
+    }
+    #sec{
+        font-size: 110px;
+        color: white;
+        margin-top: -50px;
+    }
+    #thi{
+        font-size: 110px;
+        color: white;
+        margin-top: -90px;
+    }
+    #fou{
+        font-size: 70px;
+        color:white;
+        margin-top: -90px;
+
+    }
+</style>
+<body>
+    <div id="box">
+        <div id="box3"> <h1 id="fi">Build an</h1> <h1 id="sec">iPhone</h1> <h1 id="thi"> Calculator</h1> <h1 id="fou"> in <span style="color:yellow;"> Javascript</span> </h1> </div>
+        <div id="box1">
+            <div id="box1_1"> <h1>1,337.3</h1>
+            <div id="time"> <placeholder> 6:15</placeholder></div>
+            <div id="battery"> <img  id='signal'src="https://static.thenounproject.com/png/269791-200.png" alt="">
+            <img id='wifi' src="data:image/png;base64,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" alt=""></div>
+            <div id="bat"> </div>
+            </div>
+             </div>
+        <div id="box2"> 
+            <div id="box2_1"></div>
+            <div id="box2_2"> 
+                <div id="box2_2_1"> 
+                    <div id="box2_2_1_1"> <placeholder> <h3>AC</h3></placeholder></div>
+                    <div id="box2_2_1_2"> <placeholder> <h3>+</h3></placeholder></div>
+                    <div id="box2_2_1_3"><placeholder> <h3>%</h3></placeholder></div>
+                    <div id="box2_2_1_4"><placeholder> <h3>/</h3></placeholder></div>
+
+                </div>
+                <div id="box2_2_2">
+                    <div id="box2_2_1_1"> <placeholder> <h3>7</h3></placeholder></div>
+                    <div id="box2_2_1_2"> <placeholder> <h3>8</h3></placeholder></div>
+                    <div id="box2_2_1_3"><placeholder> <h3>9</h3></placeholder></div>
+                    <div id="box2_2_1_4"><placeholder> <h3>*</h3></placeholder></div>
+
+                </div>
+                <div id="box2_2_3">
+                    <div id="box2_2_1_1"> <placeholder> <h3> 4</h3></placeholder></div>
+                    <div id="box2_2_1_2"> <placeholder> <h3>5</h3></placeholder></div>
+                    <div id="box2_2_1_3"><placeholder> <h3>6</h3></placeholder></div>
+                    <div id="box2_2_1_4"><placeholder> <h3>-</h3></placeholder></div>
+
+                </div>
+                <div id="box2_2_4">
+                    <div id="box2_2_1_1"> <placeholder> <h3>1</h3></placeholder></div>
+                    <div id="box2_2_1_2"> <placeholder> <h3>2</h3></placeholder></div>
+                    <div id="box2_2_1_3"><placeholder> <h3>3</h3></placeholder></div>
+                    <div id="box2_2_1_4"><placeholder> <h3>+</h3></placeholder></div>
+
+                </div>
+                <div id="box2_2_5">
+                    <div id="box2_2_5_1"> <placeholder><h2>0</h2> </placeholder></div>
+                    <div id="box2_2_1_3"><placeholder> <h3>.</h3></placeholder></div>
+                    <div id="box2_2_1_4"><placeholder> <h3>=</h3></placeholder></div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
